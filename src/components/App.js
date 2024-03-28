@@ -6,11 +6,11 @@ function App() {
   return (
     <div className="App">
       <div className='navbar'>
-        <span className='header'>image2pdf</span>
+        <span className='header'>PDF GENERATOR</span>
         <a href="https://github.com/anshuthopsee/image2pdf">GitHub repo</a>
       </div>
       <GeneralContextProvider>
-        <Home/>
+        <Home />
       </GeneralContextProvider>
     </div>
   );
